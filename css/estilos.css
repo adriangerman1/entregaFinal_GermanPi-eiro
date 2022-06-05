@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #fd04fd;
+}
+
+.redes {
+  color: #f8f8f8;
+  font-size: 50px;
+  text-align: center;
+  word-spacing: 80px;
+}
+
+footer h3 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+
+.logos {
+  color: rgba(253, 253, 253, 0.753);
+  font-size: 60px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.logos:hover {
+  color: #2600ff;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+h2 {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  color: white;
+  background-color: #3d0200;
+}
+
+.carousel-item img {
+  height: auto;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #3d0200;
+}
+
+.box1Home, .box2Home, .box3Home, .box4Home {
+  height: 650px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3d0200;
+}
+
+.box1Home img, .box2Home img, .box3Home img, .box4Home img {
+  width: 100%;
+  height: 540px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box1Home img:hover, .box2Home img:hover, .box3Home img:hover, .box4Home img:hover {
+  -webkit-transform: perspective(150px) rotateY(3.5deg);
+  transform: perspective(150px) rotateY(3.5deg);
+}
+
+.box2Home img {
+  width: 100%;
+  height: 540px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box2Home img:hover {
+  -webkit-transform: perspective(150px) rotateY(-3.5deg);
+  transform: perspective(150px) rotateY(-3.5deg);
+}
+
+.box3Home img {
+  width: 100%;
+  height: 540px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box3Home img:hover {
+  -webkit-transform: perspective(150px) rotateY(3.5deg);
+  transform: perspective(150px) rotateY(3.5deg);
+}
+
+.box4Home img {
+  width: 100%;
+  height: 540px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box4Home img:hover {
+  -webkit-transform: perspective(150px) rotateY(-3.5deg);
+  transform: perspective(150px) rotateY(-3.5deg);
+}
+
+.zapa {
+  height: 350px;
+  background-color: #3d0200;
+}
+
+.zapa img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.zapa img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.muscu {
+  height: 350px;
+  background-color: #3d0200;
+}
+
+.muscu img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.muscu img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.jerseyNfl {
+  height: 350px;
+  background-color: #3d0200;
+}
+
+.jerseyNfl img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.jerseyNfl img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.buzoNhl {
+  height: 350px;
+  background-color: #3d0200;
+}
+
+.buzoNhl img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.buzoNhl img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.videoSer {
+  height: 700px;
+}
+
+.videoSer iframe {
+  width: 100%;
+  height: 700px;
+}
+
+.localServ {
+  height: 800px;
+  background-color: #3d0200;
+}
+
+.localServ img {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+  border: 2px solid rgba(252, 101, 0, 0.61);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.localServ img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.textoSer {
+  background-color: #3d0200;
+  color: white;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.boxNos1 {
+  height: 800px;
+  background-color: #3d0200;
+}
+
+.boxNos1 img {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boxNos2 {
+  height: 400px;
+  background-color: #3d0200;
+}
+
+.boxNos2 iframe {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.forC {
+  background-image: url(../img/notepad-g4b066d07d_1280.jpg);
+  background-position: center;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forC label {
+  font-size: 15px;
+  color: #ff9100;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.forC input {
+  width: 20rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #ff9100;
+  margin-top: 10px;
+}
+
+.forC textarea {
+  width: 20rem;
+  border-color: #ff9100;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .forC input {
+    width: 50%;
+  }
+  .forC textarea {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

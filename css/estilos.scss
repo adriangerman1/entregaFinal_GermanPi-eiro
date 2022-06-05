@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+footer{
+
+    height: 150px;
+    width: 100%;
+    background-color: rgb(253, 4, 253);
+    
+    
+    
+}
+
+.redes{
+
+    color: rgb(248, 248, 248);
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 80px;
+}
+
+footer h3{
+  
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    
+}
+
+.logos {
+
+
+    color: rgba(253, 253, 253, 0.753);
+    font-size: 60px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.logos:hover {
+
+    color: rgb(38, 0, 255);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color:white;
+    
+}
+
+// variables
+
+$colorFondo:#3d0200 ;
+$colorBordes:rgba(252, 101, 0, 0.61);
+$colorLetras:white;
+
+$letrah2:35px;
+$letraFuente: Verdana, Geneva, Tahoma, sans-serif;
+$letraP:25px;
+
+// ------------------------------------------home-------------------------------------
+
+h2{
+
+    margin-top: 10px;
+    font-family: $letraFuente;
+    font-size:$letrah2 ;
+    color: $colorLetras;
+    background-color: $colorFondo;
+}
+.carousel-item img{
+
+    height: auto;
+    height: 700px;
+    object-fit: cover;
+    background-color: $colorFondo;
+}
+
+.box1Home{
+
+    height:650px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $colorFondo;
+    
+}
+
+.box1Home img{
+
+    width: 100%;
+    height: 540px;
+    border: 2px solid $colorBordes;
+    object-fit:cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.box1Home img:hover{
+
+    -webkit-transform: perspective(150px) rotateY(3.5deg);
+    transform: perspective(150px) rotateY(3.5deg);
+}
+
+.box2Home{
+
+    @extend .box1Home;
+}
+
+.box2Home img{
+
+    width: 100%;
+    height: 540px;
+    border: 2px solid $colorBordes;
+    object-fit:cover;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.box2Home img:hover{
+
+    -webkit-transform: perspective(150px) rotateY(-3.5deg);
+    transform: perspective(150px) rotateY(-3.5deg);
+}
+
+.box3Home{
+
+    @extend .box1Home;
+    
+}
+
+.box3Home img{
+
+    width: 100%;
+    height: 540px;
+    border: 2px solid $colorBordes;
+    object-fit:cover;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.box3Home img:hover{
+
+    -webkit-transform: perspective(150px) rotateY(3.5deg);
+    transform: perspective(150px) rotateY(3.5deg);
+
+}
+
+.box4Home{
+
+    @extend .box1Home;
+}
+
+.box4Home img {
+
+    width: 100%;
+    height: 540px;
+    border: 2px solid $colorBordes;
+    object-fit:cover;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.box4Home img:hover{
+
+    -webkit-transform: perspective(150px) rotateY(-3.5deg);
+    transform: perspective(150px) rotateY(-3.5deg);
+
+}
+
+// --------------------------------------Productos---------------------------------------------
+
+
+.zapa{
+
+    height: 350px;
+    background-color: $colorFondo;
+
+    
+}
+
+.zapa img{
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 20px;
+    border:2px solid $colorBordes;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.zapa img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+
+}
+
+.muscu{
+
+    height: 350px;
+    background-color: $colorFondo;
+}
+
+.muscu img{
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 20px;
+    border:2px solid $colorBordes;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.muscu img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+
+.jerseyNfl{
+
+    height: 350px;
+    background-color: $colorFondo;
+}
+
+.jerseyNfl img{
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 20px;
+    border:2px solid $colorBordes;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.jerseyNfl img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+
+.buzoNhl {
+    height: 350px;
+    background-color: $colorFondo;
+}
+
+.buzoNhl img{
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 20px;
+    border:2px solid $colorBordes;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.buzoNhl img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+
+// -------------------------------------Servicios------------------------------
+
+.videoSer{
+    height: 700px;
+}
+
+.videoSer iframe{
+
+    width: 100%;
+    height: 700px;
+    
+}
+
+.localServ{
+
+    
+    height: 800px;
+    background-color: $colorFondo;
+
+}
+
+.localServ img{
+
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    
+    margin-top: 20px;
+    border:2px solid $colorBordes ;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.localServ img:hover{
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.textoSer{
+
+    background-color:$colorFondo;
+    color:$colorLetras;
+    font-size: $letraP;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+// -------------------------------------------------Nosotros---------------------------------------------
+
+.boxNos1{
+
+    height: 800px;
+    background-color: $colorFondo;
+
+}
+
+.boxNos1 img{
+
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+
+}
+
+.boxNos2{
+
+    height: 400px;
+    background-color: $colorFondo;
+
+}
+
+.boxNos2 iframe{
+
+    margin-left: 10%;
+    width: 80%;
+
+}
+
+// -----------------------------------------Contactos---------------------------------------
+
+.forC{
+
+    background-image: url(../img/notepad-g4b066d07d_1280.jpg);
+    background-position: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forC label{
+
+    font-size: 15px;
+    color: rgb(255, 145, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+
+.forC input{
+
+    width: 20rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: rgb(255, 145, 0);
+    margin-top: 10px;
+}
+
+.forC textarea{
+
+    width: 20rem;
+    border-color: rgb(255, 145, 0);
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+
+    .forC input{
+
+        width: 50%;
+
+    }
+
+    .forC textarea{
+
+        width: 50%;
+        
+    }
+
+}
